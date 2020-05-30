@@ -1,0 +1,18 @@
+.travel {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 15px 19px;
+
+  .list-arrow__item:not(:last-child) {
+    margin-bottom: 3px;
+  }
+}
+
+.travel-title {
+  margin-top: 26px;
+  margin-bottom: 7px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

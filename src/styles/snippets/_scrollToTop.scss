@@ -1,0 +1,27 @@
+.scroll-to-top {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .scroll-to-top {
+    display: none;
+    width: 26px;
+    height: 26px;
+    line-height: 27px;
+    margin-left: -40px;
+    bottom: 30px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 5;
+    position: fixed;
+    background: #ff807c;
+    background: linear-gradient(to bottom, #ff807c 0%, #ff1c1c 25%, #ec1c26 60%, #c5151f 92%, #b4121c 100%);
+  }
+
+  .scroll-to-top__icon {
+    width: 11px;
+    height: 11px;
+    fill: #fff;
+    transform: rotate(90deg);
+  }
+}

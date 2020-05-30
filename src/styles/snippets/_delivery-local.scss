@@ -1,0 +1,28 @@
+.delivery-local {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 21px 15px 29px;
+
+}
+
+.delivery-local-list {
+  height: 345px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.delivery-local-item {
+  width: 24%;
+  margin-bottom: 3px;
+
+  &::before {
+    color: $red;
+    font-size: 17px;
+    margin-right: 5px;
+    content: '•';
+  }
+}

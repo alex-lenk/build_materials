@@ -1,0 +1,35 @@
+.buy-materials {
+  padding: 25px 15px 28px;
+  text-align: center;
+  background: #d9cec0;
+  background: linear-gradient(to right, #d9cec0 0%, #f3efeb 50%, #d9cec0 100%);
+}
+
+.form-horizontal {
+  max-width: 810px;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    width: 185px;
+    height: 40px;
+    margin: 8px auto 0;
+    position: relative;
+    right: -6px;
+    opacity: .4;
+    display: block;
+    background: url(../img/decor/arrow.svg) no-repeat center;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.form-horizontal__group {
+  width: 345px;
+  margin-left: 23px;
+  margin-right: 23px;
+  position: relative;
+}

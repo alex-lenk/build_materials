@@ -1,0 +1,51 @@
+.warehouse {
+  max-width: 916px;
+  padding: 29px 15px 30px;
+  margin: 0 auto;
+}
+
+.warehouse-text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.warehouse-gallery {
+}
+
+.warehouse-gallery__top {
+  height: 591px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+  img {
+    margin-bottom: 5px;
+    flex: none;
+  }
+}
+
+.warehouse-gallery__bottom {
+  justify-content: space-between;
+  display: flex;
+
+  img {
+    flex: none;
+  }
+}
+
+.warehouse-gallery__staff {
+  width: 275px;
+  margin-bottom: -5px;
+  @include clearfix;
+
+  img {
+    margin-bottom: 5px;
+
+    &:first-of-type {
+      margin-right: 5px;
+      float: left;
+    }
+  }
+}

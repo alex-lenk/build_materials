@@ -1,0 +1,81 @@
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-base: 'Montserrat', 'PFDinDisplayPro', Arial, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+$body-color: #000;
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1100px
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 20px;
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$red: #ec1c26;
+$pink: #f85c70;
+$primary: #b61f1f;
+$yellowColor: #ffe400;
+$blueColor: #003178;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: #000;
+$link-hover-decoration: none;
+
+// Badges
+
+$badge-font-weight: 400;
+$badge-padding-y: .45em;
+$badge-padding-x: .65em;
+
+// Navs
+
+$nav-tabs-link-active-color: #fff;
+$nav-tabs-link-active-bg: $pink;
+$nav-tabs-link-hover-border-color: transparent;
+
+// Forms
+
+$input-height: 57px;
+$input-color: #333;
+$input-bg: #fff;
+$input-border-width: 1px;
+$input-border-radius: 35px;
+$input-box-shadow: inset 0 5px 5px 0 rgba(#c8c8c8, 0.6);
+$input-font-size: 15px;
+$enable-shadows: true;
+$input-border-color: #727071;
+$form-group-margin-bottom: 17px;
+$input-placeholder-color: #333;
+$input-focus-border-color: #999;
+$input-focus-box-shadow: none;
+$input-font-weight: 500;
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+$btn-font-weight: 500;
+$btn-font-size: 16px;
+$btn-padding-y: .43rem;
+$btn-padding-x: 1.6rem;
+$btn-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out, box-shadow .3s ease-in-out;
+$btn-focus-box-shadow: none;
+$btn-box-shadow: none;
+$btn-border-radius: 35px;
+$btn-border-width: 0;

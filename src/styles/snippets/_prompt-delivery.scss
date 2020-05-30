@@ -1,0 +1,75 @@
+.prompt-delivery {
+  padding-top: 21px;
+  padding-bottom: 36px;
+  background: #d9cec0;
+  background: linear-gradient(to right, #d9cec0 0%, #f3efeb 50%, #d9cec0 100%);
+}
+
+.prompt-delivery-container {
+  max-width: 920px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prompt-delivery-text {
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.prompt-delivery-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prompt-delivery-item {
+  width: 220px;
+  height: 220px;
+  padding: 45px 10px 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 20px #e7dfd7;
+
+  &:nth-child(3) ~ .prompt-delivery-item {
+    margin-top: 26px;
+  }
+}
+
+.prompt-delivery-item__decor {
+  height: 70px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.prompt-delivery-item__icon {
+  width: 66px;
+  height: 66px;
+  margin: auto;
+  fill: $red;
+}
+
+.prompt-delivery-item__text {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.prompt-delivery-advantages {
+  .prompt-delivery-item {
+    padding-top: 35px;
+  }
+
+  .prompt-delivery-item__decor {
+    height: 80px;
+  }
+
+  .prompt-delivery-item__icon {
+    width: 74px;
+    height: 74px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,52 @@
+.order-delivery {
+  padding: 25px 15px 38px;
+  text-align: center;
+  background: #d9cec0;
+  background: linear-gradient(to right, #d9cec0 0%, #f3efeb 50%, #d9cec0 100%);
+}
+
+.btn-light {
+  width: 100%;
+  max-width: 346px;
+  height: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 2px 0 2px 4px;
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #b61f1f;
+  justify-content: flex-start;
+
+  &::before {
+    width: 54px;
+    height: 54px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #ff807c;
+    background: linear-gradient(to bottom, #ff807c 0%, #ff1c1c 25%, #ec1c26 60%, #c5151f 92%, #b4121c 100%);
+    content: '';
+  }
+}
+
+.btn-light__icon {
+  top: 10px;
+  fill: #fff;
+  position: absolute;
+}
+
+.btn-light__delivery {
+  width: 40px;
+  height: 40px;
+  left: 11px;
+}
+
+.btn-light__phone {
+  width: 34px;
+  height: 34px;
+  left: 13px;
+}

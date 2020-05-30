@@ -1,0 +1,189 @@
+.warranty {
+  max-width: 940px;
+  padding-left: 50px;
+  padding-right: 25px;
+  margin: 0 auto;
+  position: relative;
+
+  &::after {
+    background: url(../img/decor/hand.png) no-repeat center;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.warranty-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.2;
+
+  &::after {
+    display: block;
+    content: '';
+    margin: 0;
+    background-color: $blueColor;
+    position: absolute;
+  }
+}
+
+.warranty-list {
+  padding-left: 0;
+}
+
+.warranty-list__item {
+  display: flex;
+}
+
+.warranty-list__num {
+  color: $blueColor;
+  line-height: 1;
+  position: relative;
+
+  &::after {
+    width: 1px;
+    position: absolute;
+    background-color: #d7d1c6;
+    transform: rotate(10deg);
+    content: '';
+  }
+}
+
+.warranty-list__text {
+  font-size: 14px;
+  order: 1;
+}
+
+.warranty-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.warranty-title__bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  .warranty {
+    padding-top: 43px;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+    &::after {
+      width: 393px;
+      height: 425px;
+      position: absolute;
+      bottom: 0;
+      left: 58%;
+    }
+  }
+  .warranty-title {
+    margin-bottom: 30px;
+
+    &::after {
+      width: 5px;
+      height: 123%;
+      left: -24px;
+      top: -8px;
+    }
+  }
+  .warranty-list {
+    max-width: 567px;
+    margin-bottom: 30px;
+  }
+  .warranty-list__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  .warranty-list__num {
+    width: 37px;
+    margin-top: 1px;
+    font-size: 19px;
+    flex: none;
+
+    &::after {
+      height: 20px;
+      top: 3px;
+      right: 9px;
+    }
+  }
+  .warranty-list__text {
+    line-height: 1.4;
+  }
+  .warranty-text {
+    margin-bottom: 27px;
+  }
+  .warranty-btn {
+    width: 345px;
+  }
+}
+
+@media (max-width: 575px) {
+  .warranty {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+    &::after {
+      width: 242px;
+      height: 363px;
+      margin-left: auto;
+      margin-right: 5vw;
+      order: 1;
+    }
+  }
+  .warranty-title {
+    padding-left: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+    &::after {
+      width: 5px;
+      height: 111%;
+      left: 0;
+      top: -2px;
+    }
+  }
+  .warranty-list {
+    margin-bottom: 19px;
+  }
+  .warranty-list__item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+  .warranty-list__num {
+    width: 38px;
+    margin-top: 1px;
+    font-size: 22px;
+    flex: none;
+
+    &::after {
+      height: 24px;
+      top: 3px;
+      right: 8px;
+    }
+  }
+  .warranty-list__text {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .warranty-bottom {
+    margin-top: -21px;
+    padding: 29px 25px 36px;
+    border-radius: 6px;
+    outline: 1px solid #508dc5;
+    outline-offset: -11px;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(220, 221, 222, .5);
+    order: 2;
+  }
+  .warranty-text {
+    margin-bottom: 18px;
+    line-height: 1.4;
+  }
+}

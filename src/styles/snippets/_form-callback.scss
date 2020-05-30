@@ -1,0 +1,24 @@
+.form-callback {
+  max-width: 324px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .btn {
+    width: calc(100% - 4px);
+  }
+}
+
+.form-callback__group {
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.form-callback__icon {
+  fill: #a8a8a8;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 18px;
+  left: 21px;
+}

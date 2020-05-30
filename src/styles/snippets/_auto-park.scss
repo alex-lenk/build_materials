@@ -1,0 +1,58 @@
+.auto-park {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 25px 15px 28px;
+  text-align: center;
+}
+
+.auto-park-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.auto-park-item {
+  width: 50%;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  &:nth-child(odd).auto-park-media__img {
+    margin-right: auto
+  }
+
+  &:nth-child(even) .auto-park-media__img {
+    margin-left: auto;
+  }
+
+  &:last-child {
+    width: 100%;
+
+    .auto-park-media {
+      height: 233px;
+    }
+
+    .auto-park-media__img {
+      margin-left: auto;
+      margin-right: auto
+    }
+  }
+}
+
+.auto-park-title {
+  margin-bottom: 21px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.auto-park-media {
+  height: 202px;
+  margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.auto-park-description {
+  font-size: 18px;
+}

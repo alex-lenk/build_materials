@@ -1,0 +1,37 @@
+.order-materials {
+  padding: 37px 15px 36px;
+  text-align: center;
+  background: #d9cec0;
+  background: linear-gradient(to right, #d9cec0 0%, #f3efeb 50%, #d9cec0 100%);
+}
+
+.order-materials-box {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 14px 15px 19px;
+  border: 7px solid $blueColor;
+  background-color: #fff;
+}
+
+.order-materials-title {
+  font-size: 32px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.order-materials-title__text {
+  font-weight: 700;
+}
+
+.order-materials-text {
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: $primary;
+}
+
+.form-callback__vertical {
+  max-width: 348px;
+  position: relative;
+}

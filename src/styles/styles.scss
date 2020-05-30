@@ -1,0 +1,40 @@
+@import "general/mixin";
+@import "general/fonts";
+@import "general/settings";
+@import "vendors/jquery.fancybox";
+@import "vendors/bootstrap";
+@import "general/btn";
+@import "general/commont";
+@import "snippets/form-callback";
+@import "snippets/nav-panel";
+@import "snippets/social";
+@import "snippets/header";
+@import "snippets/main";
+@import "snippets/sale-text";
+@import "snippets/compare-prise";
+@import "snippets/advantage";
+@import "snippets/catalog";
+@import "snippets/order-delivery";
+@import "snippets/delivery";
+@import "snippets/buy-materials";
+@import "snippets/auto-park";
+@import "snippets/big-video";
+@import "snippets/order-materials";
+@import "snippets/warranty";
+@import "snippets/prompt-delivery";
+@import "snippets/out-clients";
+@import "snippets/delivery-local";
+@import "snippets/store";
+@import "snippets/questions";
+@import "snippets/warehouse";
+@import "snippets/cooperation";
+@import "snippets/travel";
+@import "snippets/footer";
+@import "snippets/scrollToTop";
+
+
+
+
+.title-block {
+  text-align: center;
+}
