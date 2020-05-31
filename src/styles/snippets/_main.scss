@@ -4,8 +4,8 @@
 }
 
 .main-inner {
-  padding-top: 25px;
-  padding-bottom: 32px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   display: flex;
   align-items: center;
 }
@@ -22,7 +22,8 @@
 
 .main-title {
   font-size: 45px;
-  line-height: 1.1;
+  line-height: 45px;
+  margin-top: -9px;
 }
 
 .main-pre-title {
@@ -43,6 +44,11 @@
 
 .main-discount__percent {
   font-weight: 700;
+}
+
+.main-header {
+  margin-left: auto;
+  text-align: center;
 }
 
 .main-product {

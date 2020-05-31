@@ -1,0 +1,95 @@
+.compare {
+  padding-top: 34px;
+  background-color: #f9f9f9;
+}
+
+.compare-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.compare-title {
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.compare-title__discount {
+  margin-left: 10px;
+  padding: 0 8px;
+  display: inline-block;
+  background-color: $red;
+  color: #fff;
+  text-align: center;
+}
+
+.compare-advantage {
+  max-width: 918px;
+  margin: 0 auto 60px;
+  padding: 27px 0;
+  background-color: #fff;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px #e7dfd7;
+}
+
+.compare-advantage__item {
+  position: relative;
+  max-width: 33.3333%;
+  flex-basis: 33.3333%;
+
+  &::after {
+    width: 3px;
+    height: 65px;
+    background-color: $blueColor;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -33px;
+    content: '';
+  }
+
+  &:last-child::after {
+    display: none;
+  }
+}
+
+.compare-advantage__headline {
+  font-size: 30px;
+  font-weight: 700;
+  color: $red;
+  line-height: 1;
+}
+
+.compare-advantage__headline-num {
+  font-size: 45px;
+}
+
+.compare-advantage__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.compare-holder {
+  padding: 25px 25px 41px;
+  background-color: #fff;
+}
+
+.compare-subject {
+  margin-bottom: 17px;
+  padding: 1px 14px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  background-color: $blueColor;
+  display: inline-flex;
+}
+
+.compare-holder__title {
+  margin-bottom: 24px;
+}

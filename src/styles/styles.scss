@@ -11,7 +11,7 @@
 @import "snippets/header";
 @import "snippets/main";
 @import "snippets/sale-text";
-@import "snippets/compare-prise";
+@import "snippets/compare";
 @import "snippets/advantage";
 @import "snippets/catalog";
 @import "snippets/order-delivery";
@@ -32,8 +32,9 @@
 @import "snippets/footer";
 @import "snippets/scrollToTop";
 
-
-
+.text-center {
+  text-align: center;
+}
 
 .title-block {
   text-align: center;

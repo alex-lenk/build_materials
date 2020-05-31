@@ -34,9 +34,9 @@ const paths = {
         watch: './src/styles/**/*.scss'
     },
     html: {
-        src: './src/index.html',
+        src: './src/*.html',
         build: './build',
-        watch: './src/index.html'
+        watch: './src/*.html'
     },
     img: {
         src: './src/img/**/*.*',
