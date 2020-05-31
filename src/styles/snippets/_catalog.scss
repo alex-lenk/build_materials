@@ -1,7 +1,15 @@
 .catalog {
-  padding-top: 24px;
-  padding-bottom: 40px;
+  background-color: #f4f1eb;
+}
+
+.catalog-inner {
+  width: 100%;
+  max-width: 1072px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 15px;
   text-align: center;
+  background-color: #fff;
 }
 
 .catalog-item {
@@ -28,7 +36,7 @@
 }
 
 .catalog-nav {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   display: flex;
   justify-content: center;
 }

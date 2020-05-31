@@ -1,7 +1,7 @@
 .hide-placeholder {
   @include hidePlaceholder {
     opacity: 1;
-    font-weight: 400;
+    //font-weight: 500;
     font-size: 11px;
     color: #333;
     text-transform: uppercase;
@@ -17,9 +17,10 @@
 }
 
 h2 {
-  margin-bottom: 23px;
-  font-size: 32px;
+  margin-bottom: 37px;
+  font-size: 31px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .text-bold {
@@ -54,4 +55,7 @@ h2 {
 
 .tab-pane:not(.active) {
   display: none;
+}
+.text-red {
+  color: $red;
 }

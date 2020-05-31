@@ -1,6 +1,5 @@
 .header {
-  padding-top: 12px;
-  padding-bottom: 8px;
+  height: 101px;
   display: flex;
   align-items: center;
 }
@@ -11,39 +10,34 @@
 }
 
 .header-decor {
-  height: 62px;
-  margin-left: 55px;
+  height: 74px;
+  padding-left: 110px;
+  margin-left: 35px;
   margin-right: auto;
-  padding-top: 10px;
-  padding-left: 25px;
-  border-left: 1px solid #b4b5b8;
+  margin-bottom: auto;
   font-size: 18px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  background: url(../img/decor/12yaer.svg) no-repeat 0 -1px;
+  background-size: 75px 52px;
 
-  &::after {
+  &::before {
     width: 98px;
-    height: 49px;
-    margin-right: 18px;
-    background: url(../img/decor/truck.png) no-repeat center;
+    height: 50px;
+    margin-right: 10px;
+    background: url(../img/decor/truck3.png) no-repeat center;
     background-size: contain;
     content: '';
   }
 
   &::after {
-    width: 98px;
-    height: 49px;
-    margin-right: 18px;
-    background: url(../img/decor/truck.png) no-repeat center;
+    width: 230px;
+    height: 39px;
+    margin-bottom: 6px;
+    background: url(../img/decor/text-header.svg) no-repeat bottom center;
     background-size: contain;
     content: '';
   }
-}
-
-.header-decor__text {
-  line-height: 1.2;
-  padding-bottom: 9px;
-  order: 1;
 }
 
 .header-support {
@@ -53,37 +47,55 @@
 
 .header-support__schedule {
   font-size: 12px;
+  letter-spacing: .01rem;
 }
 
 .header-support__phone {
-  margin-top: 8px;
+  margin-top: 10px;
   margin-bottom: 11px;
   font-size: 24px;
   font-weight: 700;
-  display: block;
-}
-
-.header-support__phone-num {
-  color: $red;
-}
-
-.header-support__social {
   display: flex;
   align-items: center;
 }
 
-.header-support__social-online {
-  margin-left: auto;
-  margin-right: 8px;
-  font-size: 12px;
+.header-support__phone-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
 
-  &::before {
-    width: 11px;
-    height: 11px;
-    margin-right: 3px;
-    display: inline-block;
-    background-color: #28a93a;
-    border-radius: 50%;
-    content: '';
+.header-support__phone-num {
+  margin-left: 6px;
+  color: $red;
+}
+
+.header-support__call {
+  font-size: 12px;
+  text-align: right;
+}
+
+.header-support__call-text {
+  font-weight: 700;
+  color: $blueColor;
+  cursor: pointer;
+  transition: color .3s;
+  display: inline-flex;
+  align-items: center;
+
+  &:hover {
+    color: $red;
+
+    .header-support__call-icon {
+      fill: $red;
+    }
   }
+}
+
+.header-support__call-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 1px;
+  fill: $blueColor;
+  transition: fill .3s;
 }

@@ -32,11 +32,6 @@
   align-items: center;
 }
 
-.nav-panel-call {
-  border-bottom: 1px dashed;
-  cursor: pointer;
-}
-
 .menu {
   line-height: 1;
   margin-right: auto;
@@ -76,25 +71,6 @@
   }
 }
 
-.nav-panel-phone {
-  display: none;
-  color: #fff;
-  transition: color .4s;
-
-  &:hover {
-    color: #fff;
-
-    .nav-panel-phone__code {
-      color: inherit;
-    }
-  }
-}
-
-.nav-panel-phone__code {
-  color: $red;
-  transition: color .4s;
-}
-
 .nav-panel__fixed {
   padding-top: 84px;
 
@@ -102,19 +78,9 @@
     position: fixed;
     opacity: 0;
   }
-
-  .nav-panel-call {
-    display: none;
-  }
-
-  .nav-panel-phone {
-    display: block;
-  }
 }
 
-.nav-panel__fly {
-  .nav-panel {
-    opacity: 1;
-    transition: opacity .3s ease-out;
-  }
+.nav-panel__fly .nav-panel {
+  opacity: 1;
+  transition: opacity .3s ease-out;
 }
