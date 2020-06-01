@@ -1,3 +1,7 @@
+img {
+  max-width: 100%
+}
+
 .hide-placeholder {
   @include hidePlaceholder {
     opacity: 1;

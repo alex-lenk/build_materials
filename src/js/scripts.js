@@ -37,7 +37,7 @@ $(document).ready(function () {
 });
 /*
 
-/!* BEGIN запрет копирования с сайта *!/
+/* BEGIN запрет копирования с сайта */
 document.ondragstart = noselect;
 // запрет на перетаскивание
 document.onselectstart = noselect;
@@ -64,4 +64,4 @@ document.onkeydown = function (e) {
         return false;
     }
 };
-/!* END *!/*/
+/* END */
