@@ -5,39 +5,55 @@
 }
 
 .header-logo {
-  width: 226px;
-  height: 76px;
+  width: 239px;
+  height: 79px;
+  margin-top: 7px;
 }
 
 .header-decor {
   height: 74px;
-  padding-left: 110px;
-  margin-left: 35px;
+  margin-left: 47px;
   margin-right: auto;
   margin-bottom: auto;
   font-size: 18px;
   display: flex;
   align-items: flex-end;
-  background: url(../img/decor/12yaer.svg) no-repeat 0 -1px;
-  background-size: 75px 52px;
 
   &::before {
-    width: 98px;
-    height: 50px;
-    margin-right: 10px;
-    background: url(../img/decor/truck3.png) no-repeat center;
+    width: 75px;
+    height: 52px;
+    margin-right: 46px;
+    margin-bottom: auto;
+    background: url(../img/decor/12yaer-2.svg) no-repeat;
     background-size: contain;
     content: '';
   }
 
   &::after {
-    width: 230px;
-    height: 39px;
-    margin-bottom: 6px;
-    background: url(../img/decor/text-header.svg) no-repeat bottom center;
+    width: 98px;
+    height: 50px;
+    margin-right: 28px;
+    background: url(../img/decor/truck3.png) no-repeat center;
     background-size: contain;
     content: '';
   }
+}
+.header-decor__text {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  line-height: 1;
+  order: 1;
+}
+.header-decor__text-head {
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 900;
+  color: $red;
+}
+
+.header-decor__text-info {
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .header-support {
@@ -48,10 +64,11 @@
 .header-support__schedule {
   font-size: 12px;
   letter-spacing: .01rem;
+  font-weight: 500;
 }
 
 .header-support__phone {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 11px;
   font-size: 24px;
   font-weight: 700;
@@ -73,6 +90,8 @@
 .header-support__call {
   font-size: 12px;
   text-align: right;
+  font-weight: 500;
+  letter-spacing: .02rem;
 }
 
 .header-support__call-text {
