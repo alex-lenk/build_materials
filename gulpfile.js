@@ -190,9 +190,8 @@ gulp.task('deploy', function () {
     });
 
     var globs = [
-        'build/**'
+        './build/**'
     ];
     return gulp.src(globs, {buffer: false})
         .pipe(conn.dest('/'));
-
 });
