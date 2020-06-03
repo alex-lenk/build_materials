@@ -2,6 +2,14 @@ img {
   max-width: 100%
 }
 
+h2 {
+  margin-bottom: 37px;
+  font-size: 31px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
 .hide-placeholder {
   @include hidePlaceholder {
     opacity: 1;
@@ -19,16 +27,20 @@ img {
   }
 }
 
-h2 {
-  margin-bottom: 37px;
-  font-size: 31px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 40px;
-}
-
 .text-bold {
   font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-block {
+  text-align: center;
+}
+
+.text-red {
+  color: $red;
 }
 
 .list-arrow {
@@ -59,8 +71,4 @@ h2 {
 
 .tab-pane:not(.active) {
   display: none;
-}
-
-.text-red {
-  color: $red;
 }

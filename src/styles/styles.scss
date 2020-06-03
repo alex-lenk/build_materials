@@ -1,5 +1,4 @@
 @import "general/mixin";
-//@import "general/fonts";
 @import "general/settings";
 @import "vendors/jquery.fancybox";
 @import "vendors/bootstrap";
@@ -31,11 +30,3 @@
 @import "snippets/travel";
 @import "snippets/footer";
 @import "snippets/scrollToTop";
-
-.text-center {
-  text-align: center;
-}
-
-.title-block {
-  text-align: center;
-}

@@ -82,9 +82,7 @@ gulp.task('browser-sync', function () {
             baseDir: './build'
         },
         notify: false,
-        port: 3030,
-        // online: false, // Work offline without internet connection
-        // tunnel: true, tunnel: 'projectname', // Demonstration page: http://projectname.localtunnel.me
+        port: 3030
     })
 });
 
@@ -181,11 +179,11 @@ gulp.task('watch', function () {
 gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'code', 'watch'));
 
 gulp.task('deploy', function () {
-    //Файлы отправляются на этот сайт http://stroimegabaza.ru/
+    //Файлы отправляются на этот сайт remhaus.site
     var conn = ftp.create({
-        host: 'rudnap.beget.tech',
-        user: 'rudnap_stroimegabaza',
-        password: 'C5*tir6h&v7ficWs',
+        host: 'rskevrodom.beget.tech',
+        user: 'rskevrodom_deploy',
+        password: 'T8BV%qAq*5MxDo1f',
         parallel: 10
     });
 
