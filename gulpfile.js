@@ -174,9 +174,10 @@ gulp.task('watch', function () {
     gulp.watch(paths.styles.watch, gulp.parallel('styles'));
     gulp.watch(paths.js.watch, gulp.parallel('scripts'));
     gulp.watch(paths.html.watch, gulp.parallel('code'));
+    gulp.watch(paths.img.watch, gulp.parallel('img'));
 });
 
-gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'code', 'watch'));
+gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'code', 'img', 'watch'));
 
 gulp.task('deploy', function () {
     //Файлы отправляются на этот сайт remhaus.site
