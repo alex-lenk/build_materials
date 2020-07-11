@@ -180,11 +180,11 @@ gulp.task('watch', function () {
 gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'code', 'img', 'watch'));
 
 gulp.task('deploy', function () {
-    //Файлы отправляются на этот сайт remhaus.site
+    //Файлы отправляются на этот сайт http://stroimegabaza.ru/
     var conn = ftp.create({
-        host: 'rskevrodom.beget.tech',
-        user: 'rskevrodom_deploy',
-        password: 'T8BV%qAq*5MxDo1f',
+        host: 'rudnap.beget.tech',
+        user: 'rudnap_deploy',
+        password: 'jR&369du',
         parallel: 10
     });
 
